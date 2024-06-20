@@ -77,11 +77,9 @@ img {
   overflow: clip;
 }
 
-img.responsive-1 {
-  width: 100%;
-
-  display: block;
-  width: 100%;
+.responsive-1 {
+  max-width: 100%;
+  height: auto;
 }
 header {
   background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
@@ -234,5 +232,11 @@ footer a {
   }
   .card {
     padding: 10px;
+  }
+  .card-header img {
+    display: none;
+  }
+  .embed {
+    aspect-ratio: 16/9;
   }
 }
