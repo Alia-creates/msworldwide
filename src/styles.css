@@ -33,6 +33,7 @@ body {
 .card {
   background-color: rgb(0, 0, 0);
   margin: 30px 0;
+  font-size: large;
 }
 .embed {
   width: 100%;
@@ -40,13 +41,18 @@ body {
 }
 .card h4 {
   font-weight: 700;
-  font-size: 24px;
+  font-size: 44px;
   line-height: 1.5;
 }
 .card h4,
 h5,
 p {
   color: rgb(255, 255, 255);
+}
+
+.card p {
+  font-size: 25px;
+  font-weight: 600;
 }
 .card-body {
   padding: 30px;
@@ -67,6 +73,21 @@ p {
   padding: 16px;
   text-decoration: none;
 }
+a href {
+  text-decoration: none;
+}
+.youtube-embeds {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+.vid-embed {
+  aspect-ratio: 16/9;
+  width: 100%;
+}
+
+.tertiary {
+  text-align: center;
+}
 
 div {
   display: block;
@@ -83,7 +104,7 @@ img {
 }
 header {
   background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-    url("../images/hero.png");
+    url("../images/anime.jpg");
 
   background-repeat: no-repeat;
   background-size: cover;
@@ -135,7 +156,7 @@ section {
   unicode-bidi: isolate;
 }
 section.secondary-section {
-  background-color: rgba(255, 255, 255, 0.26);
+  background-color: rgb(0, 0, 0);
   max-width: 100%;
   margin: 0 auto;
   padding: 100px;
@@ -164,7 +185,7 @@ main h3 {
   margin: 0;
 }
 main p {
-  font-weight: 700;
+  font-weight: 500;
   font-size: 25px;
   line-height: 1.5;
 }
@@ -172,7 +193,7 @@ main p {
 footer {
   color: white;
   background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-    url("../images/footer.jpg");
+    url("../images/japan-street.jpg");
   background-repeat: no-repeat;
   background-size: cover;
 
